@@ -23,7 +23,7 @@ wait = WebDriverWait(driver, 30, poll_frequency=1)
 driver.get("https://www.geely-motors.com/")
 
 
-input__name = driver.find_element(By.XPATH, '//*[@id="firstName"]').send_keys("Test")
+input__name = driver.find_element(By.XPATH, '//*[@id="firstName"]').send_keys("news")
 
 input__email = driver.find_element(By.XPATH, '//*[@id="email"]').send_keys("test@test.test")
 
@@ -44,7 +44,7 @@ input__name = driver.find_element(By.XPATH, '//*[@id="test-drive-form"]/div[1]/l
 input__name = driver.find_element(By.XPATH, '//*[@id="test-drive-form"]/div[1]/label[1]/div/div/ul/li[3]').click()
 
 
-input__name = driver.find_element(By.XPATH, '//*[@id="firstName"]').send_keys("Test")
+input__name = driver.find_element(By.XPATH, '//*[@id="firstName"]').send_keys("test-drive")
 
 input__phone = driver.find_element(By.XPATH, '//*[@id="phone"]').click()
 input__phone = driver.find_element(By.XPATH, '//*[@id="phone"]').send_keys(1111111111)
@@ -66,8 +66,8 @@ input__name = driver.find_element(By.XPATH, '//*[@id="offer-form"]/div[1]/label[
 input__name = driver.find_element(By.XPATH, '//*[@id="offer-form"]/div[1]/label[1]/div/div/ul/li[2]').click()
 
 
-input__name = driver.find_element(By.XPATH, '//*[@id="firstName"]').send_keys("Test")
-input__name = driver.find_element(By.XPATH, '//*[@id="lastName"]').send_keys("Test")
+input__name = driver.find_element(By.XPATH, '//*[@id="firstName"]').send_keys("servicebooking")
+input__name = driver.find_element(By.XPATH, '//*[@id="lastName"]').send_keys("servicebooking")
 input__phone = driver.find_element(By.XPATH, '//*[@id="phone"]').click()
 input__phone = driver.find_element(By.XPATH, '//*[@id="phone"]').send_keys(1111111111)
 input__email = driver.find_element(By.XPATH, '//*[@id="email"]').send_keys("test@test.test")
@@ -87,8 +87,8 @@ driver.get("https://www.geely-motors.com/forbuyers/getaquote")
 input__name = driver.find_element(By.XPATH, '//*[@id="offer-form"]/div[1]/label[1]/div').click()
 input__name = driver.find_element(By.XPATH, '//*[@id="offer-form"]/div[1]/label[1]/div/div/ul/li[2]').click()
 
-input__name = driver.find_element(By.XPATH, '//*[@id="firstName"]').send_keys("Test")
-input__name = driver.find_element(By.XPATH, '//*[@id="lastName"]').send_keys("Test")
+input__name = driver.find_element(By.XPATH, '//*[@id="firstName"]').send_keys("forbuyers getaquote")
+input__name = driver.find_element(By.XPATH, '//*[@id="lastName"]').send_keys("forbuyers getaquote")
 input__phone = driver.find_element(By.XPATH, '//*[@id="phone"]').click()
 input__phone = driver.find_element(By.XPATH, '//*[@id="phone"]').send_keys(1111111111)
 input__email = driver.find_element(By.XPATH, '//*[@id="email"]').send_keys("test@test.test")
@@ -107,8 +107,8 @@ wait.until(EC.visibility_of_element_located(DELETE_BUTTON))
 driver.get("https://www.geely-motors.com/for-owners/customer-support")
 
 
-input__name = driver.find_element(By.XPATH, '//*[@id="firstName"]').send_keys("Test")
-input__name = driver.find_element(By.XPATH, '//*[@id="lastName"]').send_keys("Test")
+input__name = driver.find_element(By.XPATH, '//*[@id="firstName"]').send_keys("customer-support")
+input__name = driver.find_element(By.XPATH, '//*[@id="lastName"]').send_keys("customer-support")
 input__phone = driver.find_element(By.XPATH, '//*[@id="phone"]').click()
 input__phone = driver.find_element(By.XPATH, '//*[@id="phone"]').send_keys(1111111111)
 input__email = driver.find_element(By.XPATH, '//*[@id="email"]').send_keys("test@test.test")
@@ -129,8 +129,8 @@ driver.get("https://www.geely-motors.com/forbuyers/tradeinpolicy")
 input__name = driver.find_element(By.XPATH, '/html/body/div/div[2]/div[5]/div[1]/div[2]/div[3]/div[2]/div/div[1]/label[1]/i').click()
 input__name = driver.find_element(By.XPATH, '/html/body/div/div[2]/div[5]/div[2]/div/button').click()
 
-input__name = driver.find_element(By.XPATH, '//*[@id="firstName"]').send_keys("Test")
-input__name = driver.find_element(By.XPATH, '//*[@id="lastName"]').send_keys("Test")
+input__name = driver.find_element(By.XPATH, '//*[@id="firstName"]').send_keys("forbuyers tradeinpolicy")
+input__name = driver.find_element(By.XPATH, '//*[@id="lastName"]').send_keys("forbuyers tradeinpolicy")
 input__phone = driver.find_element(By.XPATH, '//*[@id="phone"]').click()
 input__phone = driver.find_element(By.XPATH, '//*[@id="phone"]').send_keys(1111111111)
 input__email = driver.find_element(By.XPATH, '//*[@id="email"]').send_keys("test@test.test")
